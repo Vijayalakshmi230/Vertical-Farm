@@ -1,25 +1,239 @@
-.header{
+* {
     background-color: black;
+    font-family: sans-serif;
+    color: white;
 }
-ul{
-    float:right;
-    list-style-type: none;
-    margin-top: 30px;
-    min-height:400px;
-    margin-right: 60px;
-    font-size: 17px;
+
+.pic {
+    display: flex;
+    justify-content: space-between;
 }
-ul li{
+
+.logoiteams {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
     display: inline-block;
+    padding: 10px 10px;
+    font-size: 70;
+    position: relative;
+    right: 40px;
+    justify-content: space-between;
 }
-ul li a{
+
+.button {
+    border: none;
+    padding: 15px;
+    text-align: center;
     text-decoration: none;
-    color: aqua;
-    padding: 4px 16px;
-    border: 1px solid transparent;
-    transition: 0,5 ease;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
-ul li a:hover{
-    background-color: aquamarine;
-    color: antiquewhite;
+
+.button1 {
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.button1:hover {
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
+
+.button2 {
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.button2:hover {
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
+
+section {
+    margin: 6%;
+    margin-top: -2%;
+}
+
+.h1 {
+    font-size: 350%;
+    width: 60%;
+}
+
+.p1 {
+    color: lawngreen;
+}
+
+section i {
+    color: lawngreen;
+}
+
+.p2 {
+    font-weight: 800;
+}
+
+.p3 {
+    font-weight: bolder;
+    color: black;
+    background-color: #f1ffa2;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.h2 {
+    font-size: 20px;
+    width: 52%;
+}
+
+.button3 {
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.button3:hover {
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
+
+.button4 {
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.button4:hover {
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
+
+.image {
+    float: right;
+    width: 40%
+}
+
+table {
+    width: 100%;
+    height: 200%;
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
+
+th {
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer {
+    height: 140px;
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: white;
+}
+
+.time {
+    width: 200px;
+    height: 70px;
+    font-size: 12px;
+    font-weight: 300;
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+}
+
+.q1 {
+    padding: 6px 6px;
+    border-radius: 90px;
+    font-size: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+.para {
+    width: 22%;
+    margin-left: 100px;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    font: weight 600px;
+    ;
+}
+
+.button9 {
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.button9:hover {
+    background-color: brown;
+    color: black;
+}
+
+.button5 {
+    border-radius: 40px;
+    background-color: hotpink;
+    color: white;
+    border: 2px solid white;
+}
+
+.button5:hover {
+    background-color: plum;
+    color: black;
+}
+
+.button6 {
+    border-radius: 40px;
+    background-color: cadetblue;
+    color: white;
+    border: 2px solid white;
+}
+
+.button6:hover {
+    background-color: blue;
+    color: black;
+}
+
+.button7 {
+    border-radius: 40px;
+    background-color: lawngreen;
+    color: white;
+    border: 2px solid white;
+}
+
+.button7:hover {
+    background-color: green;
+    color: black;
+}
+
+.button8 {
+    border-radius: 40px;
+    background-color: darkgoldenrod;
+    color: white;
+    border: 2px solid white;
+}
+
+.button8:hover {
+    background-color: gold;
+    color: black;
 }
